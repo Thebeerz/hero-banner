@@ -1,0 +1,52 @@
+html {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+h2 {
+  font-size: 4rem;
+  margin: 1rem;
+}
+
+p {
+  margin: 0;
+  padding-left: 1rem;
+  font-size: 2rem;
+  font-style: italic;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.card-title {
+  position: absolute;
+  top: 5em;
+}
+
+.image-div {
+  max-height: 500px;
+  max-width: 50em;
+  border: 1px solid #ccc;
+  position: relative;
+}
+
+div {
+  margin: 0;
+}
+
+h2 {
+  display: inline;
+  color: #fff;
+  background-color: rgba(0, 0, 0, .5);
+}
