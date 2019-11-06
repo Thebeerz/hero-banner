@@ -13,7 +13,6 @@ body {
 }
 
 p {
-  padding-left: 1rem;
   font-size: 2rem;
   font-style: italic;
 }
@@ -24,6 +23,7 @@ p {
 }
 
 .card-title {
+  padding-left: 1rem;
   position: absolute;
   bottom: 0;
   max-width: 50em;
@@ -43,7 +43,6 @@ div {
 
 h2 {
   font-size: 4rem;
-  margin: 1rem;
   display: inline;
   color: #fff;
   background-color: rgba(0, 0, 0, .5);
