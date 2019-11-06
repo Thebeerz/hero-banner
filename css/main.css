@@ -29,7 +29,7 @@ p {
 }
 
 .banner {
-  transform: translateX(-50%);
+  transform: translateX(0);
   overflow: hidden;
   max-height: 500px;
   max-width: 50em;
