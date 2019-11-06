@@ -26,13 +26,13 @@ p {
 .card-title {
   position: absolute;
   bottom: 0;
+  max-width: 50em;
 }
 
 .banner {
   transform: translateX(0);
   overflow: hidden;
   max-height: 500px;
-  max-width: 50em;
   border: 1px solid #ccc;
   position: relative;
 }
