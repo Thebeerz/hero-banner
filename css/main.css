@@ -18,15 +18,18 @@ p {
 }
 
 .img-flex {
+  left: 50%;
   display: block;
   width: 100%;
 }
 
 .card-title {
+  padding-left: 0 1;
   position: absolute;
   bottom: 0;
   max-width: 50em;
   transform: translateX(50%);
+  margin-right: 40%;
 }
 
 .banner {
