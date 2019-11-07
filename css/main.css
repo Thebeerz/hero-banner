@@ -23,7 +23,6 @@ p {
 }
 
 .card-title {
-  padding-left: 2rem;
   position: absolute;
   bottom: 0;
   max-width: 50em;
