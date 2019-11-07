@@ -23,14 +23,14 @@ p {
 }
 
 .card-title {
-  padding-left: 1rem;
+  padding-left: 2rem;
   position: absolute;
   bottom: 0;
   max-width: 50em;
+  transform: translateX(50%);
 }
 
 .banner {
-  transform: translateX(0);
   overflow: hidden;
   max-height: 500px;
   border: 1px solid #ccc;
