@@ -13,26 +13,28 @@ body {
 }
 
 p {
+  text-align: left;
   font-size: 2rem;
   font-style: italic;
 }
 
 .img-flex {
-  left: 50%;
   display: block;
   width: 100%;
 }
 
 .card-title {
-  right: 50%;
-  top: 40%;
+  /* left: 0;
+  right: 60%; */
+  display: inline-block;
   position: absolute;
   bottom: 0;
   max-width: 50em;
-  transform: translateX(50%);
+  transform: translateX(40%);
 }
 
 .banner {
+  display: flex;
   overflow: hidden;
   max-height: 500px;
   border: 1px solid #ccc;
@@ -44,6 +46,7 @@ div {
 }
 
 h2 {
+  text-align: left;
   font-size: 4rem;
   display: inline;
   color: #fff;
