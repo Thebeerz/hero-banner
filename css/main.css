@@ -1,7 +1,6 @@
 html {
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
-  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -26,11 +25,12 @@ p {
 .card-title {
   /* left: 0;
   right: 60%; */
+  top: .3em;
   display: inline-block;
   position: absolute;
   bottom: 0;
   max-width: 50em;
-  transform: translate(30%);
+  transform: translate(6%);
 }
 
 .banner {
