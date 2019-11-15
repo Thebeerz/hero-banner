@@ -27,6 +27,7 @@ p {
 
 .card-title {
   padding: 0 1rem;
+  /* left: 51% */
   top: 1%;
   bottom: .5rem;
   width: 100%;
