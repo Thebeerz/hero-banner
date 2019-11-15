@@ -28,7 +28,7 @@ p {
 .card-title {
   padding: 0 1rem;
   top: 1%;
-  left: 53%;
+  left: 51%;
   bottom: .5rem;
   width: 100%;
   display: inline-block;
@@ -43,7 +43,7 @@ p {
   overflow: hidden;
   max-height: 500px;
   border: 1px solid #ccc;
-  position: relative;
+  position: absolute;
 }
 
 h2 {
@@ -57,4 +57,9 @@ h2 {
 
 .banner h2 {
   display: inline;
+}
+
+.banner {
+  position: relative;
+  top: 20%;
 }
