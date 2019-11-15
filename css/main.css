@@ -56,12 +56,5 @@ h2 {
 }
 
 .card-title h2 {
-  position: relative;
   display: inline;
-  top: 20%;
-}
-
-.banner p {
-  position: relative;
-  top: 20%;
 }
