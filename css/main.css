@@ -43,7 +43,7 @@ p {
   overflow: hidden;
   max-height: 500px;
   border: 1px solid #ccc;
-  position: absolute;
+  position: relative;
 }
 
 h2 {
