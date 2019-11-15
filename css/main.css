@@ -55,11 +55,13 @@ h2 {
   background-color: rgba(0, 0, 0, .5);
 }
 
-.banner h2 {
+.card-title h2 {
+  position: relative;
   display: inline;
+  top: 20%;
 }
 
-.banner {
+.banner p {
   position: relative;
   top: 20%;
 }
