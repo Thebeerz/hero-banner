@@ -26,14 +26,15 @@ p {
 }
 
 .card-title {
+  padding: 0 1rem;
   top: 1%;
   /* left: 51%; */
-  bottom: 1%;
+  bottom: .5rem;
   width: 100%;
   display: inline-block;
   position: absolute;
   max-width: 50em;
-  transform: translate(20%,35%);
+  transform: translate(38%,38%);
 }
 
 .banner {
