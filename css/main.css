@@ -14,10 +14,11 @@ body {
 
 p {
   margin-top: 1rem;
+  width: 95%;
   text-align: left;
   font-size: 2rem;
   font-style: italic;
-  line-height: 1.55;
+  line-height: 1.5;
 }
 
 .img-flex {
@@ -26,15 +27,14 @@ p {
 }
 
 .card-title {
-  padding: 0 1rem;
-  /* left: 51% */
-  top: 1%;
-  bottom: .5rem;
+  font-size: 1rem;
+  padding: 0 .1rem;
+  bottom: -.6rem;
+  left: 1.3rem;
   width: 100%;
   display: inline-block;
   position: absolute;
   max-width: 50em;
-  transform: translate(38%, 38%);
 }
 
 .banner {
@@ -57,4 +57,12 @@ h2 {
 
 .card-title h2 {
   display: inline;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .card-title {
+    transform: translateX(40%);
+  }
+
 }
